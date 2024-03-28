@@ -34,6 +34,11 @@ export class Tarefa extends Entity {
   @belongsTo(() => Dia)
   diaId: number;
 
+  @property({
+    type: 'number',
+  })
+  participanteId?: number;
+
   constructor(data?: Partial<Tarefa>) {
     super(data);
   }

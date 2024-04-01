@@ -1,5 +1,6 @@
 import {Entity, hasMany, model, property} from '@loopback/repository';
 import {Tarefa} from './tarefa.model';
+import {Participante} from './participante.model';
 
 @model()
 export class Dia extends Entity {
@@ -23,6 +24,9 @@ export class Dia extends Entity {
 
   @hasMany(() => Tarefa)
   tarefas: Tarefa[];
+
+  @hasMany(() => Participante, {through: {model: () => Tarefa}})
+  participantes: Participante[];
 
   constructor(data?: Partial<Dia>) {
     super(data);

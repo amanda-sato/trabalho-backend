@@ -1,34 +1,34 @@
 {
   "ids": {
-    "Tarefa": 18,
-    "Dia": 7,
-    "Participante": 8
+    "Tarefa": 21,
+    "Dia": 9,
+    "Participante": 9
   },
   "models": {
     "Tarefa": {
-      "3": "{\"descricao\":\"Testa alteração\",\"concluida\":true,\"horario\":\"15h\",\"prioridade\":\"alta\",\"diaId\":2,\"id\":3,\"participanteId\":6}",
+      "3": "{\"descricao\":\"alteracao\",\"concluida\":true,\"horario\":\"15h\",\"prioridade\":\"alta\",\"diaId\":2,\"id\":3,\"participanteId\":6}",
       "4": "{\"descricao\":\"Capinar campo\",\"concluida\":true,\"horario\":\"9h\",\"prioridade\":\"baixa\",\"diaId\":2,\"id\":4,\"participanteId\":3}",
       "5": "{\"descricao\":\"testando123\",\"concluida\":true,\"horario\":\"11h\",\"prioridade\":\"alta\",\"diaId\":1,\"id\":5}",
       "6": "{\"descricao\":\"socorro\",\"concluida\":false,\"horario\":\"11h\",\"prioridade\":\"media\",\"diaId\":2,\"id\":6}",
       "7": "{\"descricao\":\"socorro123\",\"concluida\":false,\"horario\":\"11h\",\"prioridade\":\"media\",\"diaId\":3,\"id\":7}",
-      "8": "{\"descricao\":\"Lavar louça\",\"concluida\":false,\"horario\":\"\",\"prioridade\":\"baixa\",\"diaId\":1,\"participanteId\":1,\"id\":8}",
-      "9": "{\"descricao\":\"Participar aula de inglês\",\"concluida\":false,\"horario\":\"16h\",\"prioridade\":\"média\",\"diaId\":5,\"participanteId\":6,\"id\":9}",
-      "10": "{\"descricao\":\"Fazer trabalho de backend\",\"concluida\":false,\"horario\":\"\",\"prioridade\":\"alta\",\"diaId\":4,\"participanteId\":4,\"id\":10}",
+      "8": "{\"descricao\":\"Lavar louça 2\",\"concluida\":false,\"horario\":\"9h\",\"prioridade\":\"baixa\",\"diaId\":3,\"participanteId\":1,\"id\":8}",
+      "10": "{\"descricao\":\"Fazer trabalho de backend\",\"concluida\":false,\"horario\":\"12h\",\"prioridade\":\"alta\",\"diaId\":4,\"participanteId\":4,\"id\":10}",
       "11": "{\"descricao\":\"Fazer marmitas da semana\",\"concluida\":true,\"horario\":\"18h\",\"prioridade\":\"alta\",\"diaId\":2,\"participanteId\":3,\"id\":11}",
-      "12": "{\"descricao\":\"Assistir vídeo aula de python\",\"concluida\":false,\"horario\":\"\",\"prioridade\":\"baixa\",\"diaId\":4,\"participanteId\":2,\"id\":12}",
+      "12": "{\"descricao\":\"Assistir vídeo aula de python\",\"concluida\":true,\"horario\":\"00h\",\"prioridade\":\"Alta\",\"diaId\":4,\"participanteId\":1,\"id\":12}",
       "13": "{\"descricao\":\"Assistir vídeo aula análise de dados\",\"concluida\":true,\"horario\":\"11h\",\"prioridade\":\"média\",\"diaId\":2,\"participanteId\":1,\"id\":13}",
-      "14": "{\"descricao\":\"Fazer uma ligação para cliente do caso da separação litigiosa\",\"concluida\":false,\"horario\":\"15h\",\"prioridade\":\"alta\",\"diaId\":5,\"participanteId\":3,\"id\":14}",
-      "15": "{\"descricao\":\"string\",\"concluida\":true,\"horario\":\"string\",\"prioridade\":\"string\",\"diaId\":5,\"participanteId\":2,\"id\":15}",
       "16": "{\"descricao\":\"Ler sobre Data Science\",\"concluida\":true,\"horario\":\"19hr\",\"prioridade\":\"alta\",\"diaId\":2,\"participanteId\":5,\"id\":16}",
-      "17": "{\"descricao\":\"Assistir a bela adormecida\",\"concluida\":false,\"horario\":\"20h\",\"prioridade\":\"baixa\",\"diaId\":6,\"participanteId\":2,\"id\":17}"
+      "17": "{\"descricao\":\"Assistir a bela adormecida\",\"concluida\":false,\"horario\":\"20h\",\"prioridade\":\"baixa\",\"diaId\":6,\"participanteId\":2,\"id\":17}",
+      "18": "{\"descricao\":\"Estudar Balé\",\"concluida\":false,\"horario\":\"9h\",\"prioridade\":\"Alta\",\"diaId\":5,\"id\":18}",
+      "20": "{\"descricao\":\"Estudar Balé 2\",\"concluida\":true,\"horario\":\"23h\",\"prioridade\":\"Alta\",\"id\":20}"
     },
     "Dia": {
-      "1": "{\"data\":\"2024-03-20T11:26:57.880Z\",\"dia\":\"sabado\",\"id\":1}",
       "2": "{\"data\":\"2024-03-21T11:25:42.427Z\",\"dia\":\"quinta\",\"id\":2}",
       "3": "{\"data\":\"2024-03-22T11:25:42.427Z\",\"dia\":\"sexta\",\"id\":3}",
       "4": "{\"data\":\"2024-03-30T15:38:29.227Z\",\"dia\":\"sábado\",\"id\":4}",
-      "5": "{\"data\":\"2024-03-31T15:38:29.227Z\",\"dia\":\"Domingo\",\"id\":5}",
-      "6": "{\"data\":\"2024-04-01T15:38:29.227Z\",\"dia\":\"Segunda\",\"id\":6}"
+      "5": "{\"data\":\"1998-07-01T15:38:00.000Z\",\"dia\":\"Domingo\",\"id\":5}",
+      "6": "{\"data\":\"2024-04-01T15:38:29.227Z\",\"dia\":\"Quarta\",\"id\":6}",
+      "7": "{\"data\":\"2023-12-04T03:20:00.000Z\",\"dia\":\"Segunda\",\"id\":7}",
+      "8": "{\"data\":\"2024-05-27T20:27:00.000Z\",\"dia\":\"Segunda\",\"id\":8}"
     },
     "Participante": {
       "1": "{\"nome\":\"BobEsponja\",\"id\":1}",
@@ -37,7 +37,8 @@
       "4": "{\"nome\":\"PatrickEstrela\",\"id\":4}",
       "5": "{\"nome\":\"Siriguejo\",\"id\":5}",
       "6": "{\"nome\":\"Plancton\",\"id\":6}",
-      "7": "{\"nome\":\"Teste1\",\"id\":7}"
+      "7": "{\"nome\":\"Teste2\",\"id\":7}",
+      "8": "{\"nome\":\"Berimbau\",\"id\":8}"
     }
   }
 }
